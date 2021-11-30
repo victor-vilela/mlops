@@ -35,5 +35,5 @@ def cotacao():
     preco = modelo.predict([dados_input])
     return jsonify(preco=preco[0])
     
-if __init__ == '__main__':
+if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
