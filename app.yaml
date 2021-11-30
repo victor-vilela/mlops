@@ -1,0 +1,8 @@
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main: app
+
+runtime basico
+
+includes:
+- env_vars.yaml
